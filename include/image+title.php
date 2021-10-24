@@ -1,0 +1,2 @@
+<img class="d-block mx-auto mb-4" src="https://icons-for-free.com/iconfiles/png/512/pastebin-1324440210742173072.png" alt="" width="180" id="appImage">
+<h1 class="display-5 fw-bold">Clonă de pastebin</h1>
