@@ -27,16 +27,25 @@
 			  <tbody>
 			  	<?php
 					foreach ($rows as $row) {
-						$textContent = substr($row['textContent'], 0, 40) . "...";
-						echo '
-							<tr>
-							    <td>' . $row['textTitle'] . '</td>
-							    <td>' . $textContent . '</td>
-							    <td>
-									<a href="showCurrentText.php?text=' . $row['textId'] .'">Vezi</a>
-							    </td>
-				    		</tr>
-						';
+						if (strlen($row['textContent']) > 40) {
+							$textContent = substr($row['textContent'], 0, 40) . "...";
+							echo '
+								<tr>
+								    <td>' . $row['textTitle'] . '</td>
+								    <td>' . $textContent . '</td>
+								    <td>
+										<a href="showCurrentText.php?text=' . $row['textId'] .'">Vezi tot textul</a>
+								    </td>
+					    		</tr>
+							';
+						} else {
+							echo '
+								<tr>
+								    <td>' . $row['textTitle'] . '</td>
+								    <td>' . $row['textContent'] . '</td>
+					    		</tr>
+							';
+						}
 					}
 				?>
 			  </tbody>
