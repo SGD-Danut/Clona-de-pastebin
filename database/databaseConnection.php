@@ -1,9 +1,9 @@
 <?php
 
 //For online database
-$serverName = "remotemysql.com";
-$username = "IBtZ7y8NAJ";
-$password = "gtFydn888W";
+$serverName = "sql4.freesqldatabase.com";
+$username = "sql4471892";
+$password = "MBfhEgzZr4";
 $databaseName = "IBtZ7y8NAJ";
 
 //For localhost database
