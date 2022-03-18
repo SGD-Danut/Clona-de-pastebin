@@ -1,10 +1,10 @@
 <?php
 
 //For online database
-$serverName = "sql5.freesqldatabase.com";
-$username = "sql5471917";
-$password = "mMjMjplwlV";
-$databaseName = "sql5471917";
+$serverName = "remotemysql.com";
+$username = "GGJDytLzTO";
+$password = "er9VwZci4U";
+$databaseName = "GGJDytLzTO";
 
 //For localhost database
 //$serverName = "localhost";
